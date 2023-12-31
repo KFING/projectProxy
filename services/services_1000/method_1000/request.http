@@ -1,0 +1,7 @@
+POST /the_url HTTP/1.1
+User-Agent: Mozilla
+Host: www.example.com
+Content-Length: xxxx
+Content-Type: application/json
+
+{"some": {{body|json}}, "name": "{{name}}"}

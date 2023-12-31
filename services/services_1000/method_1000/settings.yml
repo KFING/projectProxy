@@ -1,0 +1,14 @@
+user_status_code: 400
+ratelimit:
+   count: 123
+   duration_s: 300
+   status_code: 423
+   strategy: simle
+good_status_codes:
+   - 200
+   - 201
+cache:
+   ttl_s: 1000
+params:
+   name: required
+   body: optional
